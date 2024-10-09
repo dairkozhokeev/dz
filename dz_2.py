@@ -84,7 +84,6 @@ class Villain(FireHero):
 
     def crit(self):
         self.damage = (self.damage ** 2 )
-
 print(Villain.crit(hero_3))
 
 
